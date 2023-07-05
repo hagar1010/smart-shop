@@ -1,0 +1,38 @@
+.discount{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding: 30px 200px;
+}
+.offer{
+    background: var(--girl);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.offer .info{
+    text-align: right;
+}
+.offer h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.offer p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.offer a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 4px solid var(--primary);
+}
+.offer img{
+    width: 53%;
+}
+.blue{
+    background-color: var(--boys);
+}
