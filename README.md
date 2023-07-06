@@ -1,2 +1,5 @@
 # smart-shop
-##hagar gamal
+## hagar gamal
+### Wed : part of home page design
+### Thu : complate home page design, sliders, routes
+
