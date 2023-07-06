@@ -1,0 +1,28 @@
+.brands{
+    padding: 50px 200px;
+}
+.brands h3{
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    line-height: 50px;
+    font-weight: 500;
+}
+.brands h3::after{                            
+    content: '';
+    background: var(--primary);
+    width: 50px;
+    height: 3px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.brands div{
+    display: flex;
+    align-items: center;
+}
+.brands div img{
+    margin: 0 7px;
+}
