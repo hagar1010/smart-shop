@@ -5,3 +5,4 @@
 #### Fri : part of products page, part of single product page, sass
 #### Str : products page design complated
 #### Sun : products page slider & filter
+#### Mon : single product design complate
