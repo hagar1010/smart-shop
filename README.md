@@ -7,3 +7,6 @@
 ##### Sun : products page slider & filter
 ##### Mon : product detail page design complate
 ##### Tus : The arrangement of the code and set date for detail page
+##### Wen : responsive home
+##### Thu : -
+##### Fri : cart page design
