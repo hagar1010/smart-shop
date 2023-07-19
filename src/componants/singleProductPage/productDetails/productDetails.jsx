@@ -231,7 +231,7 @@ const ProductDetails = () => {
 
                 <button className="addCart-btn" onClick={() =>
                     dispatch(addToCart({
-                        current
+                        current//////
                     }))
                 }>اضف للسلة</button>
                 <input type="number" min="1" />
