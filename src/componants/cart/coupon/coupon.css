@@ -1,0 +1,77 @@
+.coupon{
+    padding: 30px;
+    text-align: end;
+    height: 500px;
+    box-shadow: 0px 0px 40px 2px rgb(197, 196, 196);
+    margin-top: 90px;
+}
+.coupon textarea{
+    height: 100px;
+    border-radius: 8px;
+}
+.coupon h3{
+    margin: 20px 0 0;
+}
+.coupon button{
+    background-color: var(--primary);
+    padding: 8px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.coupon input{
+    text-align: end;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    padding: 8px 5px;
+    border-radius: 8px;
+    width: 110px;
+    outline: 0;
+}
+.coupon small{
+    display: inline-block;
+    margin: 10px 0 15px;
+    color: #888;
+    font-size: 12px;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.total p{
+    color: #888;
+    margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    .coupon{
+        padding: 30px 20px;
+        height: auto;
+        margin-top: 0;
+    }
+    .coupon textarea{
+        height: 80px;
+    }
+    .coupon h3{
+        margin: 0;
+    }
+    .coupon input{
+        margin-left: 30px;
+        margin-bottom: 10px;
+    }
+    .coupon small{
+        margin: 10px 0;
+    }
+    .total p{
+        font-size: 12px;
+    }
+    
+}
