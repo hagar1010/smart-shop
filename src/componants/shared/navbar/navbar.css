@@ -1,0 +1,280 @@
+.bar {
+    width: 100%;
+    background-color: #fff;
+    position: fixed; /*no father relative*/
+    z-index: 900;
+    top: 0;
+    box-shadow: 2px 2px 5px #eee;
+}
+.navbar{
+    width: 74%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 20px;/**/
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.tools svg {
+    margin-right: 13px;
+    font-size: 23px;
+    color: #555;
+    cursor: pointer;
+}
+.tools svg:hover{
+    color: var(--primary);
+}
+
+
+
+
+
+.tools{
+    position: relative;
+}
+.cart-length{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------user drop down menu----------------------------------------*/
+.visitor-menu{
+    position: fixed;
+    top: 11%;
+    left: 5%;
+    max-height: 0;/**/
+    overflow: hidden;
+    width: 240px;
+    background: #f6fdff;
+    box-shadow: 2px 2px 5px #eee;
+    z-index: 600;
+    transition: max-height 0.7s;
+}
+.open-menu{
+    max-height: 240px;
+}
+.visitor-menu a{
+    text-decoration: none;
+    color: #333;
+}
+.visitor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    color: #888;
+}
+.visitor:hover{
+    color: var(--primary);
+    border-right: 3px solid var(--primary);
+}
+.visitor svg{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+.user-info{
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+.user-info button{
+    /* padding: 5px 8px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #333;*/
+    margin-left: 15px; 
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.user-info button img{
+    width: 50px;
+    border-radius: 50%;
+}
+.user-info div h5{
+    font-size: 13px;
+}
+.user-info div p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.search{
+    background-color: var(--primary);
+    padding: 60px 50px;
+    position: relative;
+    text-align: end;
+    display: none;
+}
+.search svg{
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.search-input{
+    border-bottom: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.search-input input{
+    width: 100%;
+    text-align: end;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+}
+.search-input input::placeholder{
+    color: #fff;
+}
+.search-input svg{
+    position: relative;
+    margin-bottom: 5px;
+}
+.open-search{
+    display: block !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-icon{
+    display: none;
+}
+nav svg{
+    display: none;
+}
+.nav-display{
+    right: 0;
+}
+/*--------------------------------responsive----------------------------------*/
+@media (max-width: 1080px) {
+    nav {
+        display: block;
+        position: fixed;
+        background: #769fb3;
+        height: 100vh;
+        width: 300px;
+        top: 0;
+        right: -300px;
+        text-align: right;
+        z-index: 500;
+        /* transition: 1s; */
+    }
+    nav img{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    } 
+    nav svg{
+        display: block;
+        font-size: 25px;
+        margin: 15px 0 0 15px;
+        color: #fff;
+        cursor: pointer;
+    }
+    nav ul{
+        margin: 20px 0;
+    }
+    nav ul li{
+        display: block;
+        padding: 15px 0;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .list-icon{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .list-icon:hover{
+        color: var(--primary);
+    }
+}
+
